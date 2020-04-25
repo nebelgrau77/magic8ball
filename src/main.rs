@@ -13,7 +13,7 @@ fn main() {
 
     let texts = answers();
 
-    let choice = rand::thread_rng().gen_range(0,21);
+    let choice = rand::thread_rng().gen_range(0,20);
 
     let outcome = texts[choice as usize];
 
